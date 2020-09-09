@@ -36,7 +36,7 @@ picture::after{
     content:"ENJOY YOUR DELICIOUS \A DESSERTS";
     white-space: pre;
     color: rgb(240, 240, 240);
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 500;
     position: absolute;
     text-shadow: 2px 2px 0 #e30b5d, 2px -2px 0 #e30b5d, -2px 2px 0 #e30b5d, -2px -2px 0 #e30b5d, 2px 0px 0 #e30b5d, 0px 2px 0 #e30b5d, -2px 0px 0 #e30b5d, 0px -2px 0 #e30b5d;
@@ -266,6 +266,10 @@ footer li{
 
 @media(max-width:900px){
 
+    picture::after{
+        font-size: 2.5rem;
+    } 
+
     .menu{
         width: 100%;
         display: flex;
@@ -285,6 +289,10 @@ footer li{
     }
 }
 @media(max-width:680px){
+
+    picture::after{
+            font-size: 2rem;
+        } 
     .menu{
         width: 100%;
         display: flex;
